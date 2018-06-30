@@ -31,7 +31,7 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = this.funkyFunction()
-
+var theFunk = funkyFunction()
+theFunk = theFunk.funky()
 console.log(`the Funk = ${theFunk}`)
 console.log("Calling the function " + funkyFunction())
