@@ -32,4 +32,4 @@ function funkyFunction() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()
 console.log(`the Funk = ${theFunk`)
-console.log("Calling the function ${funkyFunction})
+console.log("Calling the function " + funkyFunction())
